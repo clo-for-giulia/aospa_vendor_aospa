@@ -1,2 +1,7 @@
 # Allow system_app to read the AOSPA version.
 get_prop(system_app, aospa_build_prop)
+
+# GameSpace
+allow system_app cgroup:dir search;
+allow system_app cgroup:file rw_file_perms;
+
