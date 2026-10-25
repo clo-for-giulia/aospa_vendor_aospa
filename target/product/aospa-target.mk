@@ -22,10 +22,6 @@ PRODUCT_SOURCE_ROOT_DIRS += -prebuilts/misc/protobuf_vendorcompat \
     -platform_testing/tests/automotive/display_safety \
     -device/generic/trusty/microdroid
 
-# Abstruct
-PRODUCT_PACKAGES += \
-    Abstruct
-
 # AOSPA Version.
 $(call inherit-product, vendor/aospa/target/product/version.mk)
 
